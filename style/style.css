@@ -9,9 +9,6 @@ a {
   text-decoration: none;
 }
 
-.container {
-  
-}
 
 .header {
   display: grid;
@@ -132,7 +129,7 @@ a {
 .searchFormSearchinput::placeholder {
   font-family: "Raleway", "Sans serif";
   font-size: 1rem;
-  color: #00000069;
+  color: black;
 }
 .searchFormSubmitinput {
   background-color: #0065FC;
@@ -299,6 +296,9 @@ a {
   margin: 0.25rem 0.75rem 0.25rem 0.75rem;
 }
 .hostingMainCardDescPrice {
+  font-weight: normal;
+}
+.hostingMainCardDescPrice2 {
   font-weight: bold;
 }
 .hostingMainCardGrade {
@@ -521,6 +521,20 @@ a {
   .footerColumnwrapperColumnLink:last-child {
     margin-bottom: 0;
   }
+  .main {
+    padding: 0;
+  }
+  .search {
+    padding: 0 1em;
+  }
+
+  .hostingPopular {
+    border-radius: 0;
+  }
+  .searchFiltersFilter {
+    margin-right: 0.3em;
+  }
 }
+
 
 /*# sourceMappingURL=style.css.map */
